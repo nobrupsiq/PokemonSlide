@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Pokemon;
+  src: url(./Pokemon-Solid.ttf);
+}
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+.pokebola {
+  width: 80px;
+  position: absolute;
+  top: 20px
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-wrapper {
+  height: 100vh;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  margin: 20px;
+  width: 300px;
+  height: 380px;
+  background-image: #EEE;
+  border-radius: 10px;
+  border: 5px solid rgba(0, 0, 0, .3);
+
+}
+
+.swiper-slide-active {
+  box-shadow: rgba(0, 0, 0, 1) 0px 10px 40px 5px;
+  box-shadow: 0px 4px 20px #fff;;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  width: 160px;
+  filter: contrast(120%) drop-shadow(2px 3px 1px #000);
+
+}
+
+.title-name {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Pokemon;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0;
+  color: #000
+}
+
+.subtitle {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pokemon-classe-bug { background-image: radial-gradient(circle, #92c964, #85c55e, #76c059, #67bc54, #56b74f, #49af4c, #3ca64a, #2e9e47, #259044, #1e8241, #18743c, #146738) }
+.pokemon-classe-fire { background-image: radial-gradient(circle, #f7902e, #f68429, #f57826, #f46c24, #f25e24, #eb5424, #e34b25, #db4125, #cc3b25, #bd3524, #af2f23, #a02a21) }
+.pokemon-classe-water { background-image: radial-gradient(circle, #52c7f2, #47bfed, #3cb7e9, #31afe4, #24a7df, #199fda, #0d96d5, #008ecf, #0083c7, #0078bf, #026db7, #0d62ae) }
+.pokemon-classe-electric { background-image: radial-gradient(circle, #fde113, #fddc13, #fcd813, #fcd314, #fbcf15, #f8c918, #f4c41b, #f1be1d, #eab621, #e3ae24, #dca627, #d59e29) }
+.pokemon-classe-poison { background-image: radial-gradient(circle, #b776b1, #ac6dad, #a065a9, #935da6, #8655a2, #7e50a0, #764c9e, #6d479c, #69449b, #644299, #603f98, #5b3d97) }
+.pokemon-classe-fighting { background-image: radial-gradient(circle, #e89a3e, #e0913b, #d88938, #d08035, #c87832, #c17032, #ba6932, #b26232, #a95a34, #9f5335, #954c36, #8a4636) }
+.pokemon-classe-steel { background-image: radial-gradient(circle, #d5dfe4, #c9d4d9, #bcc8cf, #b0bdc4, #a4b2ba, #95a4ac, #86969e, #778891, #62747d, #4e616a, #3b4e57, #283c45) }
+.pokemon-classe-ghost { background-image: radial-gradient(circle, #3496b1, #318ba3, #2f8095, #2c7687, #2a6b7a, #26626f, #215964, #1d505a, #15464f, #0e3d44, #063439, #012b2f) }
+.pokemon-classe-normal { background-image: radial-gradient(circle, #fcfcfa, #eaebe8, #d8d9d6, #c7c9c4, #b5b8b3, #adb1ac, #a6aaa4, #9ea39d, #9ea39d, #9ea39d, #9ea39d, #9ea39d) }
+.pokemon-classe-ice { background-image: radial-gradient(circle, #77d0c0, #7cd9c8, #80e1d0, #85ead8, #8af3e0, #85e9d7, #7fe0ce, #7ad6c5, #69b8aa, #589c8f, #488076, #39655d) }
+.pokemon-classe-flying { background-image: radial-gradient(circle, #89b5d8, #97c1dc, #a8cde1, #bad9e5, #cde4eb, #c6dee5, #c0d9df, #b9d3d9, #96bcc6, #73a6b4, #4e90a2, #1b7b91) }
+.pokemon-classe-grass { background-image: radial-gradient(circle, #dafbe1, #d2f9da, #c9f6d3, #c1f4cc, #b8f1c5, #afefbe, #a7ecb6, #9eeaaf, #93e7a6, #87e49d, #7be094, #6fdd8b)}
+.pokemon-classe-psychic { background-image: radial-gradient(circle, #ffff, #e5ccff, #debfff, #d6b3ff, #cea7ff, #c39af9, #b78cf4, #ab7fee, #9a6de1, #895cd4, #784ac7, #6639ba)}
+.pokemon-classe-rock { background-image: radial-gradient(circle, #c6835b, #b77954, #a9704d, #9a6647, #8c5d40, #83563a, #794e33, #70472d, #694025, #61391d, #5a3215, #522b0c)}
+.pokemon-classe-ground { background-image: radial-gradient(circle, #f1ebdd, #eee6d4, #ebe2cb, #e9ddc2, #e6d8b9, #dccdad, #d3c2a2, #c9b796, #b6a486, #a49176, #917f66, #7f6d57)}
+.pokemon-classe-dragon { background-image: radial-gradient(circle, #f6d3ab, #edc299, #e4b088, #db9f79, #d28d6b, #c68061, #ba7458, #ae684f, #9d5e47, #8c543f, #7b4a37, #6b402f)}
+.pokemon-classe-fairy { background-image: radial-gradient(circle, #8b9bf1, #9c98f5, #ae95f7, #c290f7, #d58bf5, #e083ed, #eb7ae3, #f571d8, #f964c6, #fa57b3, #fb4ba0, #f93e8d) }

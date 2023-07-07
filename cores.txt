@@ -1,0 +1,21 @@
+BUG = background-image: radial-gradient(circle, #92c964, #85c55e, #76c059, #67bc54, #56b74f, #49af4c, #3ca64a, #2e9e47, #259044, #1e8241, #18743c, #146738);
+
+FIRE = background-image: radial-gradient(circle, #f7902e, #f68429, #f57826, #f46c24, #f25e24, #eb5424, #e34b25, #db4125, #cc3b25, #bd3524, #af2f23, #a02a21);
+
+AQUA = background-image: radial-gradient(circle, #52c7f2, #47bfed, #3cb7e9, #31afe4, #24a7df, #199fda, #0d96d5, #008ecf, #0083c7, #0078bf, #026db7, #0d62ae);
+
+ELETRIC = background-image: radial-gradient(circle, #fde113, #fddc13, #fcd813, #fcd314, #fbcf15, #f8c918, #f4c41b, #f1be1d, #eab621, #e3ae24, #dca627, #d59e29);
+
+PSIQUIC = background-image: radial-gradient(circle, #b776b1, #ac6dad, #a065a9, #935da6, #8655a2, #7e50a0, #764c9e, #6d479c, #69449b, #644299, #603f98, #5b3d97);
+
+FIGHTING = background-image: radial-gradient(circle, #e89a3e, #e0913b, #d88938, #d08035, #c87832, #c17032, #ba6932, #b26232, #a95a34, #9f5335, #954c36, #8a4636);
+
+STEAL = background-image: radial-gradient(circle, #d5dfe4, #c9d4d9, #bcc8cf, #b0bdc4, #a4b2ba, #95a4ac, #86969e, #778891, #62747d, #4e616a, #3b4e57, #283c45);
+
+DARKNESS = background-image: radial-gradient(circle, #3496b1, #318ba3, #2f8095, #2c7687, #2a6b7a, #26626f, #215964, #1d505a, #15464f, #0e3d44, #063439, #012b2f);
+
+NORMAL = background-image: radial-gradient(circle, #fcfcfa, #eaebe8, #d8d9d6, #c7c9c4, #b5b8b3, #adb1ac, #a6aaa4, #9ea39d, #9ea39d, #9ea39d, #9ea39d, #9ea39d);
+
+ICE = background-image: radial-gradient(circle, #77d0c0, #7cd9c8, #80e1d0, #85ead8, #8af3e0, #85e9d7, #7fe0ce, #7ad6c5, #69b8aa, #589c8f, #488076, #39655d);
+
+FLYING = background-image: radial-gradient(circle, #89b5d8, #97c1dc, #a8cde1, #bad9e5, #cde4eb, #c6dee5, #c0d9df, #b9d3d9, #96bcc6, #73a6b4, #4e90a2, #1b7b91);
