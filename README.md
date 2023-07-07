@@ -13,6 +13,7 @@
 
  ## ✔ Used
 
+- [Poke API](https://pokeapi.co/)
 - HTML
 - CSS
 - JAVASCRIPT
