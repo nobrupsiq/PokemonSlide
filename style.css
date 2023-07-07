@@ -7,6 +7,9 @@ html, body {
   height: 100%;
 }
 
+body {
+  overflow: hidden;
+}
 .pokebola {
   width: 80px;
   position: absolute;
@@ -46,12 +49,11 @@ body {
   background-image: #EEE;
   border-radius: 10px;
   border: 5px solid rgba(0, 0, 0, .3);
-
 }
 
 .swiper-slide-active {
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 40px 5px;
-  box-shadow: 0px 4px 20px #fff;;
+  box-shadow: inset 0px 4px 20px #000;
 }
 
 .swiper-slide img {

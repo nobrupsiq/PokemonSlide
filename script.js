@@ -17,7 +17,6 @@ function fetchPokemon() {
         pushPokemonsQtds(5)
         observe()
     })
-
 }
 
 fetchPokemon()
@@ -53,12 +52,14 @@ function observe(){
     function onMovement(){
         let slide_active = document.querySelector(".swiper-slide-active")
         let slide_all = Array.from(document.querySelectorAll(".swiper-slide"))
-        // let slide_all_quant = slide_all.length
         let slide_pos = slide_all.indexOf(slide_active)
-
         if(card_n - slide_pos <= 5) pushPokemonsQtds(10)
     }
-
     let observer = new MutationObserver(onMovement)
     observer.observe(slideWapper, {attributes:true})
 }
+
+window.addEventListener('keydown', e=>{
+    if(e.key == "ArrowLeft") swiper.slidePrev()
+    if(e.key == "ArrowRight") swiper.slideNext()
+})
